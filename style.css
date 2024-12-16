@@ -1,0 +1,42 @@
+/*This is a custom divclass which makes a rectangle with a grey background. This is a good example of "placeholder" code which acts as placeholder for future images (Feel free to change the pixel size with the height attribute)*/
+.fakeimg {
+  height: 500px;
+  background: #aaa;
+}
+/*This ends the custom fakeimage CSS*/
+
+/*This style code below changes the entire body tag of the html page. Your "body" tag contains most of your pages content, so these style elements will be what your viewers see when reviewing text and image content on your page. Choose wisely here as this is you main page look! Consider matching or mirroing the style elements here with the jumbotron CSS code below*/
+body {
+  background-color: black;
+  color: #aaa;
+  font-family: Work 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*This ends the body tag CSS*/
+
+/*This style code below changes the header box style that we see at the top of the page*/
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+/*This ends the headerbox "jumbotron" CSS*/
+
+canvas {
+  margin: auto;
+  display: block;
+}
+
+/* This will help center and make your images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+iframe {
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 400px;
+}
